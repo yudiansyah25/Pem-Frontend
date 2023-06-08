@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import style from './Hero.module.css';
+import { useEffect } from 'react';
 function Hero(){
   //Membuat state movie
  const [movie, setMovie] = useState("");

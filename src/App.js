@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './css/style.css';
-import Home from './pages/Home';
+import Home from './pages/Home.js';
 import CreateMovie from './pages/movie/create';
 import Popular from './pages/movie/popular';
 import NowPlaying from './pages/movie/nowplaying';

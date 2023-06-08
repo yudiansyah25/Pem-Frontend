@@ -8,16 +8,17 @@ import Counter from '../components/Counter/index.js';
 const Home = () => {
   // state
   const [movies, setMovies] = useState(data);
-  // return (
-  //   <>
-  //     <Hero />
-  //     <Movies movies={movies} setMovies={setMovies} />
-  //     <From movies={movies} setMovies={setMovies} />
-  //   </>
-  // );
-  // return(
-  //   <Counter/>
-  // ) 
+return(
+  <>
+  <Hero/> 
+  <Movies title="Latest Movie" movies={movies} setMovies={setMovies}/>
+  <From movies={movies} setMovies={setMovies}/>
+  <h1>
+    Selamat Datang
+  </h1>
+
+  </>
+)
 };
 
 export default Home;
