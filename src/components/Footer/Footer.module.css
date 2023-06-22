@@ -1,0 +1,12 @@
+.container {
+  background-color: #4c4c6d;
+  padding: 1rem;
+  font-family: Poppins;
+  color: #fff;
+  text-align: center;
+}
+
+.footer__title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
